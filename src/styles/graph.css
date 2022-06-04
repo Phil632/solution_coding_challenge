@@ -1,0 +1,20 @@
+.graph-node {
+  cursor: pointer;
+  fill: blue;
+  stroke: black;
+  transition: stroke-width 0.1s linear;
+}
+
+.graph-node:hover {
+  stroke-width: 3;
+}
+
+.graph-node-selected {
+  transition: fill 0.1s linear;
+  fill: red;
+  stroke: black;
+}
+
+.graph-track {
+  stroke: black;
+}
